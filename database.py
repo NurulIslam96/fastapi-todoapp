@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
 # -------SQLITE3-------
-SQLAlCHEMY_DATABASE_URL = "sqlite:///./todosapp.db"
+SQLAlCHEMY_DATABASE_URL = "postgresql://postgres.askbgzwdlummdtetsews:AbbuAmmu0123@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres"
 engine = create_engine(SQLAlCHEMY_DATABASE_URL)
 
 # -------POSTGRESQL-------
